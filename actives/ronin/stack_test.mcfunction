@@ -1,0 +1,2 @@
+execute as @a if entity @s[scores={.stack_Ronin_A1=..4}] run function rpg:professions/actives/ronin/test_fail
+execute as @a if entity @s[scores={.stack_Ronin_A1=5}] run function rpg:professions/actives/ronin/test_pass
