@@ -1,0 +1,28 @@
+## Forest_Archer
+假如遺失特殊箭矢,需輸入/scoreboard players set @s Forest_Archer_S1_Count 0以解除BUG
+
+## 1.19更新預定
+rpg:mob 跟 miner stone的更新方塊
+Paladin c1 的致盲效果改為黑暗效果
+
+## Version 1.0.0
+## 建立初始職業-共8種
+
+## 預定更新
+技能外觀材質包
+RPG式自然Spawn怪
+RPG式特殊怪物(新模組+攻擊模式)
+副本系統
+武器/裝備/技能升級系統
+新增二線型職業-工匠(特殊Attribute)
+新增二線型職業-附魔師(特殊附魔)
+轉職系統
+
+## 預定工作
+1/ Actionbar顯示 x
+2/ 初始空島(職業體驗區+職業選擇區) x
+3/ 職業選擇公告 @s已成為[x] x
+4/ 上傳到Github方便查詢
+
+
+
