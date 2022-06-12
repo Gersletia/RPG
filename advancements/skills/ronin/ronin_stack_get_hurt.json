@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Ronin\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/ronin/a1"
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{Inventory:[{Slot:-106b,id:\"minecraft:emerald\"}],SelectedItem:{id:\"minecraft:netherite_pickaxe\"},Tags:[\"Miner\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/miner/a2/emerald"
+    }
+  }
+  

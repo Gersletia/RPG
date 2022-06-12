@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "Fish",
+      "description": ""
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:fishing_rod"
+            ]
+          }
+        }
+      }
+    }
+  }
+  

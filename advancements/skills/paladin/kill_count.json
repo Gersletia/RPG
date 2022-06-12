@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\".in_Paladin_S1\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/actives/paladin/count"
+    }
+  }
+  

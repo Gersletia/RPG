@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Forest_Archer\"]}"
+          },
+          "damage": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:bow"
+                  ]
+                }
+              }
+            },
+            "type": {
+              "is_projectile": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/forest_archer/c1"
+    }
+  }
+  

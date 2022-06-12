@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{SelectedItem:{id:\"minecraft:bow\"},Tags:[\"Forest_Archer\"]}"
+          },
+          "damage": {
+            "type": {
+              "is_projectile": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/forest_archer/a3"
+    }
+  }
+  
+  

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Paladin\"]}"
+          },
+          "damage": {
+            "taken": {
+              "min": 1,
+              "max": 40
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/paladin/a3"
+    }
+  }
+  
+  
+  
+  

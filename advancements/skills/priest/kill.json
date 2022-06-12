@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Priest\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/priest/reduce_ct"
+    }
+  }
+  

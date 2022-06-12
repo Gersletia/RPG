@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Paladin\"]}"
+          },
+          "item": {
+            "items": [
+              "minecraft:shield"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/paladin/a1"
+    }
+  }
+  

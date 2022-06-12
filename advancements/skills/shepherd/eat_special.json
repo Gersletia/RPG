@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Shepherd\"]}"
+          },
+          "item": {
+            "items": [
+              "minecraft:cooked_mutton"
+            ],
+            "nbt": "{Shepherd_A3:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/shepherd/a3"
+    }
+  }

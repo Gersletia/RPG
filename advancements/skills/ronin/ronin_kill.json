@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"Ronin\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "rpg:professions/passives/ronin/a2"
+    }
+  }
